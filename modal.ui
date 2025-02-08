@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Añadir</class>
+ <widget class="QWidget" name="Form">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelNom">
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="txtNom"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelPreu">
+     <property name="text">
+      <string>Preu</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="txtPreu"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelQuantitat">
+     <property name="text">
+      <string>Quantitat</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="txtQuantitat"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAfegir">
+     <property name="text">
+      <string>Afegir</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnModificar">
+     <property name="text">
+      <string>Modificar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
